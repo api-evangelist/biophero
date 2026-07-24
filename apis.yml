@@ -1,7 +1,27 @@
 aid: biophero
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/biophero.png
 name: Biophero
-description: Biophero is a company surfaced as a portfolio company of dcvc and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  BioPhero is a Danish agricultural biotechnology company that engineers microbes to
+  produce synthetic insect pheromones via microbial fermentation, providing low-cost,
+  bio-based pest control that disrupts insect mating cycles on major row crops without
+  toxic insecticides. Founded as a spin-out from the Technical University of Denmark (DTU),
+  BioPhero raised a DCVC Bio-led Series A (with FMC Ventures, Syngenta Group Ventures, and
+  Novo Holdings) and was subsequently acquired by FMC Corporation. The company is a
+  DCVC portfolio holding surfaced in the API Evangelist network; it operates as a research
+  and product organization in synthetic biology and crop protection and publishes no public
+  developer API, documentation, SDKs, or agent-facing surface.
 url: https://raw.githubusercontent.com/api-evangelist/biophero/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +31,24 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Agriculture
+- Biotechnology
+- Synthetic Biology
+- Pest Control
+- Pheromones
+- Crop Protection
+- Life Sciences
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
