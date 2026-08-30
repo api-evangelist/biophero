@@ -63,3 +63,9 @@ x-enrichment:
   status: backfilled
   pass: local-v1
   note: backfilled from .gitignore signal + verified work evidence
+common:
+- type: ParentCompany
+  url: https://apis.io/providers/fmc-corporation/
+  name: FMC Corporation
+  x-relationship: acquired
+  x-evidence: "Founded as a spin-out from the Technical University of Denmark (DTU), BioPhero raised a DCVC Bio-led Series A (with FMC Ventures, Syngenta Group Ventures, and Novo Holdings) and was subsequently acquired by FMC Corporation. The company is a"
